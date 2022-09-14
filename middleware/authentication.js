@@ -12,7 +12,6 @@ const auth = async (req, res, next) => {
   try {
     const token = authHeader.split(' ')[1]
     const payLoad = jwt.verify(token, process.env.JWT_SECRET)
-    console.log(payLoad)
     req.user = { userID: payLoad.userID, name: payLoad.name }
     next()
   } catch (error) {
