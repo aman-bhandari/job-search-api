@@ -1,7 +1,5 @@
 # job-search-api
 
-> **Archived learning-era repo (2022).** Preserved as evidence of self-taught Node.js backend work during 2019-2022. Not maintained. For current work see [aman-bhandari](https://github.com/aman-bhandari).
-
 A REST API for tracking job applications. User registers, logs in, gets a JWT, and then CRUDs their own job records.
 
 ## What's in it
@@ -40,11 +38,3 @@ npm install
 #   JWT_LIFETIME=30d
 npm start
 ```
-
-## Iteration history
-
-19 commits between 2022-09-12 and 2022-11-25 (~2.5 months of iterative work while self-teaching Node.js backend development).
-
-## Why this is archived
-
-This repo is from the 2019-2022 self-taught period before I joined my current team. It shipped to Render at `aman-jobs-api.onrender.com` and worked end to end. The code reflects what I knew at the time; current standards (see [aman-bhandari pinned repos](https://github.com/aman-bhandari)) look different. The repo is kept public and archived as evidence of the iterative backend work that bridged 2019-2022.
